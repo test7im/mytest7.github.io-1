@@ -1962,10 +1962,6 @@ h6 {
 .rating__table table tbody tr td:last-child {
   font-size: calc(16px + 20 * ((100vw - 320px) / 1600));
 }
-.rating__table .command {
-  display: none;
-  opacity: 0;
-}
 .rating__table .command table thead {
   padding: 22px 0;
 }
@@ -2051,10 +2047,6 @@ h6 {
   .rating__table .command table tbody tr td:nth-child(5) {
     display: none;
   }
-}
-.rating__table .personal {
-  display: none;
-  opacity: 0;
 }
 .rating__table .personal table thead {
   padding: 15px 5px;
@@ -2534,19 +2526,6 @@ body._lock {
   animation: show 0.2s forwards 0.2s;
 }
 @keyframes show {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-._showBlock {
-  display: block !important;
-  animation: showBlock 0.2s forwards 0.2s;
-}
-@keyframes showBlock {
   0% {
     opacity: 0;
   }
