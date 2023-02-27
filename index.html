@@ -1,871 +1,684 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Главная</title>
-  </head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Главная</title>
+</head>
 
   <body>
     <div class="wrapper">
-      <div class="columns">
-        <aside class="sidebar">
-          <div class="sidebar__container">
-            <a href="/" class="sidebar__logo">
-              <div class="sidebar__icon">
-                <img src="img/svg/logo.svg" alt="logo" />
-              </div>
-              <div class="sidebar__label">
-                <p>CyberRate</p>
-                <span>by Winline</span>
-              </div>
-            </a>
-            <div class="sidebar__tournaments">
-              <a href="#" class="sidebar__tournament @@0">
-                <img src="img/sidebar/dota.svg" alt="tournament" />
-              </a>
-              <a href="#" class="sidebar__tournament _active">
-                <img src="img/sidebar/csgo.svg" alt="tournament" />
-              </a>
-              <a href="#" class="sidebar__tournament @@2">
-                <img src="img/sidebar/fifa.svg" alt="tournament" />
-              </a>
-              <a href="#" class="sidebar__tournament @@3">
-                <img src="img/sidebar/nba.svg" alt="tournament" />
-              </a>
-              <a href="#" class="sidebar__tournament @@4">
-                <img src="img/sidebar/nhl.svg" alt="tournament" />
-              </a>
-              <a href="#" class="sidebar__tournament @@5">
-                <img src="img/sidebar/ufc.svg" alt="tournament" />
-              </a>
+      <header class="header">
+  <div class="header__container _container">
+    <div class="header__body">
+      <div class="header__block-menu">
+        <div class="btn-mobile">
+          <button type="button" class="btn-mobile__burger">
+            <span></span>
+          </button>
+        </div>
+        <div class="header__logo">
+          <a href="/">
+            <div><img src="img/svg/logo/icon.svg" alt="logo" width="60" /></div>
+            <div>
+              <img src="img/svg/logo/tcode.svg" alt="logo" width="94" />
+              <img src="img/svg/logo/by.svg" alt="logo" width="53" />
             </div>
-          </div>
-        </aside>
-
-        <div class="content">
-          <header class="header">
-            <div class="header__container _container">
-              <nav class="header__nav">
-                <ul class="header__menu">
-                  <li class="header__item"><a href="#">Дисциплины</a></li>
-                  <li class="header__item"><a href="#">Highlights</a></li>
-                  <li class="header__item _active"><a href="/">Турниры</a></li>
-                  <li class="header__item"><a href="#">Операторы</a></li>
-                  <li class="header__item"><a href="#">FAQ</a></li>
-                </ul>
-              </nav>
-              <div class="header__win">
-                <img src="img/svg/win.svg" alt="win" />
-              </div>
-              <div class="header__mobile">
-                <a href="/" class="header__logo">
-                  <div class="header__icon">
-                    <img src="img/svg/logo.svg" alt="logo" />
-                  </div>
-                  <div class="header__label">
-                    <p>CyberRate</p>
-                    <span>by Winline</span>
-                  </div>
-                </a>
-                <div class="btn-mobile">
-                  <button type="button" class="btn-mobile__burger">
-                    <span></span>
-                  </button>
-                </div>
-                <div class="mobile _mask">
-                  <div class="mobile__block">
-                    <div class="mobile__close">
-                      <div class="mobile__btn-close">
-                        <span></span>
-                        <span></span>
-                      </div>
-                    </div>
-                    <div class="mobile__header">
-                      <div class="mobile__win">
-                        <img src="img/svg/win.svg" alt="win" />
-                      </div>
-                      <a href="/" class="mobile__logo">
-                        <div class="mobile__icon">
-                          <img src="img/svg/logo.svg" alt="logo" />
-                        </div>
-                        <div class="mobile__label">
-                          <p>CyberRate</p>
-                          <span>by Winline</span>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="mobile__menu">
-                      <ul>
-                        <li>
-                          <a href="#" class="mobile__menu-item">Дисциплины</a>
-                        </li>
-                        <li>
-                          <a href="#" class="mobile__menu-item">Highlights</a>
-                        </li>
-                        <li>
-                          <a href="/" class="mobile__menu-item _active">Турниры</a>
-                        </li>
-                        <li>
-                          <a href="#" class="mobile__menu-item">Операторы</a>
-                        </li>
-                        <li>
-                          <a href="#" class="mobile__menu-item">FAQ</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="mobile__tournaments">
-                      <a href="#" class="mobile__tournament">
-                        <img src="img/sidebar/dota.svg" alt="tournament" />
-                      </a>
-                      <a href="#" class="mobile__tournament _active-block">
-                        <img src="img/sidebar/csgo.svg" alt="tournament" />
-                      </a>
-                      <a href="#" class="mobile__tournament">
-                        <img src="img/sidebar/fifa.svg" alt="tournament" />
-                      </a>
-                      <a href="#" class="mobile__tournament">
-                        <img src="img/sidebar/nba.svg" alt="tournament" />
-                      </a>
-                      <a href="#" class="mobile__tournament">
-                        <img src="img/sidebar/nhl.svg" alt="tournament" />
-                      </a>
-                      <a href="#" class="mobile__tournament">
-                        <img src="img/sidebar/ufc.svg" alt="tournament" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </header>
-
-          <main class="page">
-            <div class="main">
-              <div class="main__container _container">
-                <div class="main__promo">
-                  <div class="main__body flex">
-                    <div class="main__header">
-                      <h1 class="main__title">Единый рейтинг киберспортсменов</h1>
-                      <div class="main__subtitle">
-                        <div class="main__labels">
-                          <div class="main__label">
-                            <img src="img/svg/winline_main.svg" alt="winline" />
-                          </div>
-                          <div class="main__label">
-                            <img src="img/svg/cross_main.svg" alt="cross" />
-                          </div>
-                          <div class="main__label">
-                            <img src="img/svg/sgl_dark.svg" alt="sgl" />
-                          </div>
-                        </div>
-                        <div class="main__desc">
-                          <p>Проект Winline и холдинга SGL.</p>
-                          <p>Наслаждайся игрой, остальное за нами.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="main__img">
-                      <img src="img/main.png" alt="main" />
-                    </div>
-                  </div>
-                </div>
-                <div class="main__advs">
-                  <div class="main__adv br-gray">
-                    <span>6</span>
-                    <p>дисциплин</p>
-                  </div>
-                  <div class="main__adv br-gray">
-                    <span>8</span>
-                    <p>турниров</p>
-                  </div>
-                  <div class="main__adv br-gray">
-                    <span>18</span>
-                    <p>команд</p>
-                  </div>
-                  <div class="main__adv br-gray">
-                    <span>100</span>
-                    <p>игроков</p>
-                  </div>
-                  <div class="main__adv br-gray">
-                    <span>256</span>
-                    <p>матчей</p>
-                  </div>
-                  <div class="main__adv br-gray">
-                    <span>6</span>
-                    <p>млн рублей</p>
-                  </div>
-                </div>
-                <div class="disciplines">
-                  <h2 class="title">Дисциплины</h2>
-                  <div class="disciplines__slider swiper">
-                    <div class="disciplines__swiper swiper-wrapper">
-                      <a href="#" class="disciplines__block swiper-slide _active">
-                        <div class="disciplines__icon">
-                          <img src="img/sidebar/csgo.svg" alt="tournament" />
-                        </div>
-                      </a>
-                      <a href="#" class="disciplines__block swiper-slide">
-                        <div class="disciplines__icon">
-                          <img src="img/sidebar/dota.svg" alt="tournament" />
-                        </div>
-                      </a>
-                      <a href="#" class="disciplines__block swiper-slide">
-                        <div class="disciplines__icon">
-                          <img src="img/sidebar/fifa.svg" alt="tournament" />
-                        </div>
-                      </a>
-                      <a href="#" class="disciplines__block swiper-slide">
-                        <div class="disciplines__icon">
-                          <img src="img/sidebar/nba.svg" alt="tournament" />
-                        </div>
-                      </a>
-                      <a href="#" class="disciplines__block swiper-slide">
-                        <div class="disciplines__icon">
-                          <img src="img/sidebar/nhl.svg" alt="tournament" />
-                        </div>
-                      </a>
-                      <a href="#" class="disciplines__block swiper-slide">
-                        <div class="disciplines__icon">
-                          <img src="img/sidebar/ufc.svg" alt="tournament" />
-                        </div>
-                      </a>
-                    </div>
-                    <div class="disciplines__btn-arrow swiper-button-prev">
-                      <img src="img/svg/arrow-l.svg" alt="arrow" />
-                    </div>
-                    <div class="disciplines__btn-arrow swiper-button-next">
-                      <img src="img/svg/arrow-r.svg" alt="arrow" />
-                    </div>
-                  </div>
-                </div>
-                <div class="tournaments">
-                  <div class="between">
-                    <h2 class="title">Турниры</h2>
-                    <div class="all">
-                      <a href="#">все <img src="img/svg/arrow.svg" alt="arrow" /></a>
-                    </div>
-                  </div>
-                  <div class="tournaments__blocks">
-                    <div class="tournaments__block br-gray">
-                      <div class="tournaments__img">
-                        <img src="img/tournaments/csgo.svg" alt="csgo" />
-                      </div>
-                      <div class="tournaments__name">
-                        <p>WINLINE INSIGHT</p>
-                        <p>CS:GO S2</p>
-                      </div>
-                    </div>
-                    <div class="tournaments__block br-gray">
-                      <div class="tournaments__img">
-                        <img src="img/tournaments/dota.svg" alt="dota" />
-                      </div>
-                      <div class="tournaments__name">
-                        <p>WINLINE INSIGHT</p>
-                        <p>Dota2 Season 2</p>
-                      </div>
-                    </div>
-                    <div class="tournaments__block br-gray">
-                      <div class="tournaments__img">
-                        <img src="img/tournaments/fifa.svg" alt="fifa" />
-                      </div>
-                      <div class="tournaments__name">
-                        <p>SPORT WINLINE</p>
-                        <p>FEST FIFA23</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="top-kills">
-                  <div class="top-kills__cols">
-                    <div class="top-kills__col">
-                      <div class="top-kills__head between">
-                        <h2 class="title">
-                          <div class="top-kills__symbol">
-                            <img src="img/symbols/csgo.png" alt="symbol" />
-                          </div>
-                          Top kills
-                        </h2>
-                        <div class="all">
-                          <a href="#">все <img src="img/svg/arrow.svg" alt="arrow" /></a>
-                        </div>
-                      </div>
-                      <div class="top-kills__list">
-                        <div class="top-kills__kill">
-                          <div class="between">
-                            <div class="top-kills__info">
-                              <span class="top-kills__number">1</span>
-                              <div class="top-kills__symbol">
-                                <img src="img/symbols/csgo.png" alt="symbol" />
-                              </div>
-                              <div class="top-kills__ava">
-                                <img src="img/kills/1.png" alt="kill" />
-                              </div>
-                              <div class="top-kills__user">
-                                <p class="top-kills__nickname">FpSSSSSSS</p>
-                                <p class="top-kills__name">Дмитрий Софронов</p>
-                              </div>
-                            </div>
-                            <div class="top-kills__scores">4983</div>
-                          </div>
-                        </div>
-                        <div class="top-kills__kill">
-                          <div class="between">
-                            <div class="top-kills__info">
-                              <span class="top-kills__number">2</span>
-                              <div class="top-kills__symbol">
-                                <img src="img/symbols/csgo.png" alt="symbol" />
-                              </div>
-                              <div class="top-kills__ava">
-                                <img src="img/kills/2.png" alt="kill" />
-                              </div>
-                              <div class="top-kills__user">
-                                <p class="top-kills__nickname">r3salt</p>
-                                <p class="top-kills__name">Евгений Фролов</p>
-                              </div>
-                            </div>
-                            <div class="top-kills__scores">4567</div>
-                          </div>
-                        </div>
-                        <div class="top-kills__kill">
-                          <div class="between">
-                            <div class="top-kills__info">
-                              <span class="top-kills__number">3</span>
-                              <div class="top-kills__symbol">
-                                <img src="img/symbols/csgo.png" alt="symbol" />
-                              </div>
-                              <div class="top-kills__ava">
-                                <img src="img/kills/3.png" alt="kill" />
-                              </div>
-                              <div class="top-kills__user">
-                                <p class="top-kills__nickname">Porya</p>
-                                <p class="top-kills__name">Данил Порядин</p>
-                              </div>
-                            </div>
-                            <div class="top-kills__scores">4313</div>
-                          </div>
-                        </div>
-                        <div class="top-kills__kill">
-                          <div class="between">
-                            <div class="top-kills__info">
-                              <span class="top-kills__number">4</span>
-                              <div class="top-kills__symbol">
-                                <img src="img/symbols/csgo.png" alt="symbol" />
-                              </div>
-                              <div class="top-kills__ava">
-                                <img src="img/kills/4.png" alt="kill" />
-                              </div>
-                              <div class="top-kills__user">
-                                <p class="top-kills__nickname">lom1k</p>
-                                <p class="top-kills__name">Иван Овсяник</p>
-                              </div>
-                            </div>
-                            <div class="top-kills__scores">4256</div>
-                          </div>
-                        </div>
-                        <div class="top-kills__kill">
-                          <div class="between">
-                            <div class="top-kills__info">
-                              <span class="top-kills__number">5</span>
-                              <div class="top-kills__symbol">
-                                <img src="img/symbols/csgo.png" alt="symbol" />
-                              </div>
-                              <div class="top-kills__ava">
-                                <img src="img/kills/5.png" alt="kill" />
-                              </div>
-                              <div class="top-kills__user">
-                                <p class="top-kills__nickname">eternalsad</p>
-                                <p class="top-kills__name">-</p>
-                              </div>
-                            </div>
-                            <div class="top-kills__scores">3828</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="top-kills__col">
-                      <div class="top-kills__head between">
-                        <h2 class="title">
-                          <div class="top-kills__symbol">
-                            <img src="img/symbols/dota.png" alt="symbol" />
-                          </div>
-                          Top kills
-                        </h2>
-                        <div class="all">
-                          <a href="#">все <img src="img/svg/arrow.svg" alt="arrow" /></a>
-                        </div>
-                      </div>
-                      <div class="top-kills__list">
-                        <div class="top-kills__kill">
-                          <div class="between">
-                            <div class="top-kills__info">
-                              <span class="top-kills__number">1</span>
-                              <div class="top-kills__symbol">
-                                <img src="img/symbols/dota.png" alt="symbol" />
-                              </div>
-                              <div class="top-kills__ava">
-                                <img src="img/kills/6.png" alt="kill" />
-                              </div>
-                              <div class="top-kills__user">
-                                <p class="top-kills__nickname">chambi</p>
-                                <p class="top-kills__name">Владислав Хорольцев</p>
-                              </div>
-                            </div>
-                            <div class="top-kills__scores">243</div>
-                          </div>
-                        </div>
-                        <div class="top-kills__kill">
-                          <div class="between">
-                            <div class="top-kills__info">
-                              <span class="top-kills__number">2</span>
-                              <div class="top-kills__symbol">
-                                <img src="img/symbols/dota.png" alt="symbol" />
-                              </div>
-                              <div class="top-kills__ava">
-                                <img src="img/kills/7.png" alt="kill" />
-                              </div>
-                              <div class="top-kills__user">
-                                <p class="top-kills__nickname">Egor</p>
-                                <p class="top-kills__name">Егор Лексютин</p>
-                              </div>
-                            </div>
-                            <div class="top-kills__scores">212</div>
-                          </div>
-                        </div>
-                        <div class="top-kills__kill">
-                          <div class="between">
-                            <div class="top-kills__info">
-                              <span class="top-kills__number">3</span>
-                              <div class="top-kills__symbol">
-                                <img src="img/symbols/dota.png" alt="symbol" />
-                              </div>
-                              <div class="top-kills__ava">
-                                <img src="img/kills/8.png" alt="kill" />
-                              </div>
-                              <div class="top-kills__user">
-                                <p class="top-kills__nickname">v1olent</p>
-                                <p class="top-kills__name">Александр Пак</p>
-                              </div>
-                            </div>
-                            <div class="top-kills__scores">192</div>
-                          </div>
-                        </div>
-                        <div class="top-kills__kill">
-                          <div class="between">
-                            <div class="top-kills__info">
-                              <span class="top-kills__number">4</span>
-                              <div class="top-kills__symbol">
-                                <img src="img/symbols/dota.png" alt="symbol" />
-                              </div>
-                              <div class="top-kills__ava">
-                                <img src="img/kills/9.png" alt="kill" />
-                              </div>
-                              <div class="top-kills__user">
-                                <p class="top-kills__nickname">Mannik</p>
-                                <p class="top-kills__name">Виталий Брезгин</p>
-                              </div>
-                            </div>
-                            <div class="top-kills__scores">180</div>
-                          </div>
-                        </div>
-                        <div class="top-kills__kill">
-                          <div class="between">
-                            <div class="top-kills__info">
-                              <span class="top-kills__number">5</span>
-                              <div class="top-kills__symbol">
-                                <img src="img/symbols/dota.png" alt="symbol" />
-                              </div>
-                              <div class="top-kills__ava">
-                                <img src="img/kills/10.png" alt="kill" />
-                              </div>
-                              <div class="top-kills__user">
-                                <p class="top-kills__nickname">火</p>
-                                <p class="top-kills__name">Аскар Жумагулов</p>
-                              </div>
-                            </div>
-                            <div class="top-kills__scores">172</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="top-teams">
-                  <h2 class="title">Топ команд</h2>
-                  <div class="top-teams__cols between">
-                    <div class="top-teams__col">
-                      <div class="top-teams__block">
-                        <div class="top-teams__head between">
-                          <h4 class="top-teams__title">по количеству побед Dota 2</h4>
-                          <div class="top-teams__icon"><img src="img/svg/dota.svg" alt="dota" /></div>
-                        </div>
-                        <div class="top-teams__chart">
-                          <div class="top-teams__rank">
-                            <div class="top-teams__logo">
-                              <img src="img/teams/1.png" alt="team" />
-                            </div>
-                            <div class="top-teams__val gr-orange">
-                              <span class="valueScore">124</span>
-                            </div>
-                          </div>
-                          <div class="top-teams__rank">
-                            <div class="top-teams__logo">
-                              <img src="img/teams/2.png" alt="team" />
-                            </div>
-                            <div class="top-teams__val gr-orange">
-                              <span class="valueScore">114</span>
-                            </div>
-                          </div>
-                          <div class="top-teams__rank">
-                            <div class="top-teams__logo">
-                              <img src="img/teams/3.png" alt="team" />
-                            </div>
-                            <div class="top-teams__val gr-orange">
-                              <span class="valueScore">94</span>
-                            </div>
-                          </div>
-                          <div class="top-teams__rank">
-                            <div class="top-teams__logo">
-                              <img src="img/teams/4.png" alt="team" />
-                            </div>
-                            <div class="top-teams__val gr-orange">
-                              <span class="valueScore">93</span>
-                            </div>
-                          </div>
-                          <div class="top-teams__rank">
-                            <div class="top-teams__logo">
-                              <img src="img/teams/5.png" alt="team" />
-                            </div>
-                            <div class="top-teams__val gr-orange">
-                              <span class="valueScore">93</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="top-teams__list">
-                          <div class="top-teams__team">
-                            <div class="between">
-                              <div class="top-teams__info">
-                                <span class="top-teams__number">1</span>
-                                <div class="top-teams__logo">
-                                  <img src="img/teams/1.png" alt="team" />
-                                </div>
-                                <div class="top-teams__name">Team Empire Hope</div>
-                              </div>
-                              <div class="top-teams__scores">124</div>
-                            </div>
-                          </div>
-                          <div class="top-teams__team">
-                            <div class="between">
-                              <div class="top-teams__info">
-                                <span class="top-teams__number">2</span>
-                                <div class="top-teams__logo">
-                                  <img src="img/teams/2.png" alt="team" />
-                                </div>
-                                <div class="top-teams__name">cybercats</div>
-                              </div>
-                              <div class="top-teams__scores">114</div>
-                            </div>
-                          </div>
-                          <div class="top-teams__team">
-                            <div class="between">
-                              <div class="top-teams__info">
-                                <span class="top-teams__number">3</span>
-                                <div class="top-teams__logo">
-                                  <img src="img/teams/3.png" alt="team" />
-                                </div>
-                                <div class="top-teams__name">Team Empire</div>
-                              </div>
-                              <div class="top-teams__scores">94</div>
-                            </div>
-                          </div>
-                          <div class="top-teams__team">
-                            <div class="between">
-                              <div class="top-teams__info">
-                                <span class="top-teams__number">4</span>
-                                <div class="top-teams__logo">
-                                  <img src="img/teams/4.png" alt="team" />
-                                </div>
-                                <div class="top-teams__name">Luna Gaming</div>
-                              </div>
-                              <div class="top-teams__scores">93</div>
-                            </div>
-                          </div>
-                          <div class="top-teams__team">
-                            <div class="between">
-                              <div class="top-teams__info">
-                                <span class="top-teams__number">5</span>
-                                <div class="top-teams__logo">
-                                  <img src="img/teams/5.png" alt="team" />
-                                </div>
-                                <div class="top-teams__name">YNT</div>
-                              </div>
-                              <div class="top-teams__scores">93</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <a href="#" class="btn">Полностью</a>
-                    </div>
-                    <div class="top-teams__col">
-                      <div class="top-teams__block">
-                        <div class="top-teams__head between">
-                          <h4 class="top-teams__title">по количеству побед CS:GO</h4>
-                          <div class="top-teams__icon"><img src="img/svg/csgo.svg" alt="csgo" /></div>
-                        </div>
-                        <div class="top-teams__chart">
-                          <div class="top-teams__rank">
-                            <div class="top-teams__logo">
-                              <img src="img/teams/6.png" alt="team" />
-                            </div>
-                            <div class="top-teams__val gr-green">
-                              <span class="valueScore">124</span>
-                            </div>
-                          </div>
-                          <div class="top-teams__rank">
-                            <div class="top-teams__logo">
-                              <img src="img/teams/7.png" alt="team" />
-                            </div>
-                            <div class="top-teams__val gr-green">
-                              <span class="valueScore">114</span>
-                            </div>
-                          </div>
-                          <div class="top-teams__rank">
-                            <div class="top-teams__logo">
-                              <img src="img/teams/8.png" alt="team" />
-                            </div>
-                            <div class="top-teams__val gr-green">
-                              <span class="valueScore">94</span>
-                            </div>
-                          </div>
-                          <div class="top-teams__rank">
-                            <div class="top-teams__logo">
-                              <img src="img/teams/9.png" alt="team" />
-                            </div>
-                            <div class="top-teams__val gr-green">
-                              <span class="valueScore">93</span>
-                            </div>
-                          </div>
-                          <div class="top-teams__rank">
-                            <div class="top-teams__logo">
-                              <img src="img/teams/10.png" alt="team" />
-                            </div>
-                            <div class="top-teams__val gr-green">
-                              <span class="valueScore">93</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="top-teams__list">
-                          <div class="top-teams__team">
-                            <div class="between">
-                              <div class="top-teams__info">
-                                <span class="top-teams__number">1</span>
-                                <div class="top-teams__logo">
-                                  <img src="img/teams/6.png" alt="team" />
-                                </div>
-                                <div class="top-teams__name">1shot</div>
-                              </div>
-                              <div class="top-teams__scores">124</div>
-                            </div>
-                          </div>
-                          <div class="top-teams__team">
-                            <div class="between">
-                              <div class="top-teams__info">
-                                <span class="top-teams__number">2</span>
-                                <div class="top-teams__logo">
-                                  <img src="img/teams/7.png" alt="team" />
-                                </div>
-                                <div class="top-teams__name">AVE</div>
-                              </div>
-                              <div class="top-teams__scores">114</div>
-                            </div>
-                          </div>
-                          <div class="top-teams__team">
-                            <div class="between">
-                              <div class="top-teams__info">
-                                <span class="top-teams__number">3</span>
-                                <div class="top-teams__logo">
-                                  <img src="img/teams/8.png" alt="team" />
-                                </div>
-                                <div class="top-teams__name">INDE IRAE</div>
-                              </div>
-                              <div class="top-teams__scores">94</div>
-                            </div>
-                          </div>
-                          <div class="top-teams__team">
-                            <div class="between">
-                              <div class="top-teams__info">
-                                <span class="top-teams__number">4</span>
-                                <div class="top-teams__logo">
-                                  <img src="img/teams/9.png" alt="team" />
-                                </div>
-                                <div class="top-teams__name">VP.Prodigy</div>
-                              </div>
-                              <div class="top-teams__scores">93</div>
-                            </div>
-                          </div>
-                          <div class="top-teams__team">
-                            <div class="between">
-                              <div class="top-teams__info">
-                                <span class="top-teams__number">5</span>
-                                <div class="top-teams__logo">
-                                  <img src="img/teams/10.png" alt="team" />
-                                </div>
-                                <div class="top-teams__name">QUAZAR.NSK</div>
-                              </div>
-                              <div class="top-teams__scores">93</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <a href="#" class="btn">Полностью</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="highlights">
-                  <h2 class="title">Highlights</h2>
-                  <div class="highlights__cols">
-                    <div class="previews">
-                      <a href="#" class="preview">
-                        <div class="preview__body">
-                          <div class="preview__img">
-                            <img src="img/highlights/previews/1.png" alt="preview" />
-                          </div>
-                          <div class="preview__text">
-                            <h4 class="preview__title">Питер Расмуссен одержал победу на турнире в Астане</h4>
-                            <span class="preview__date">16 ноября 2022</span>
-                          </div>
-                        </div>
-                      </a>
-                      <a href="#" class="preview">
-                        <div class="preview__body">
-                          <div class="preview__img">
-                            <img src="img/highlights/previews/2.png" alt="preview" />
-                          </div>
-                          <div class="preview__text">
-                            <h4 class="preview__title">Призовой фонд турнира Travel Mission 2022 составит 3 000 000 тенге, победитель также получит путёвку в Дубаи</h4>
-                            <span class="preview__date">16 ноября 2022</span>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="news">
-                      <a href="#" class="news__block">
-                        <div class="news__img">
-                          <img src="img/highlights/news/1.png" alt="news" />
-                        </div>
-                        <div class="news__text">
-                          <h5 class="news__title">Питер Расмуссен одержал победу на турнире в Астане</h5>
-                          <div class="news__date between">
-                            <span>16 ноября 2022</span>
-                            <img src="img/svg/arrow.svg" alt="arrow" />
-                          </div>
-                        </div>
-                      </a>
-                      <a href="#" class="news__block">
-                        <div class="news__img">
-                          <img src="img/highlights/news/2.png" alt="news" />
-                        </div>
-                        <div class="news__text">
-                          <h5 class="news__title">Киберспорт в России официально приравняли к футболу</h5>
-                          <div class="news__date between">
-                            <span>16 ноября 2022</span>
-                            <img src="img/svg/arrow.svg" alt="arrow" />
-                          </div>
-                        </div>
-                      </a>
-                      <a href="#" class="news__block">
-                        <div class="news__img">
-                          <img src="img/highlights/news/3.png" alt="news" />
-                        </div>
-                        <div class="news__text">
-                          <h5 class="news__title">Киберспорт в России: есть к чему стремиться!</h5>
-                          <div class="news__date between">
-                            <span>16 ноября 2022</span>
-                            <img src="img/svg/arrow.svg" alt="arrow" />
-                          </div>
-                        </div>
-                      </a>
-                      <a href="#" class="news__block">
-                        <div class="news__img">
-                          <img src="img/highlights/news/4.png" alt="news" />
-                        </div>
-                        <div class="news__text">
-                          <h5 class="news__title">Юному игроку приготовиться: чем живет российский киберспорт и кто его герои</h5>
-                          <div class="news__date between">
-                            <span>16 ноября 2022</span>
-                            <img src="img/svg/arrow.svg" alt="arrow" />
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                  <a href="#" class="btn">Все хайлайты</a>
-                </div>
-              </div>
-            </div>
-          </main>
+          </a>
+        </div>
+        <div class="header__menu">
+          <ul>
+            <li><a href="#" class="_active">О нас</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Проекты</a></li>
+            <li><a href="#">Блог</a></li>
+          </ul>
+        </div>
+        <div class="phone">
+          <a href="tel:+77777777777"><img src="img/svg/phone.svg" alt="phone" /></a>
         </div>
       </div>
-      <footer class="footer">
-        <div class="footer__container">
-          <div class="footer__logos">
-            <div><img src="img/svg/sgl_light.svg" alt="sgl" /></div>
-            <div><img src="img/svg/cross.svg" alt="cross" /></div>
-            <div><img src="img/svg/winline.svg" alt="winline" /></div>
-          </div>
-          <div class="footer__disciplines">
-            <p>Дисциплины</p>
-            <ul>
-              <li><a href="#">Dota 2 </a></li>
-              <li><a href="#">CS:GO</a></li>
-              <li><a href="#">FIFA</a></li>
-              <li><a href="#">NBA</a></li>
-              <li><a href="#">NHL</a></li>
-              <li><a href="#">UFC</a></li>
-            </ul>
-          </div>
-          <ul class="footer__menu">
-            <li><a href="#">Турниры</a></li>
-            <li class="_hidden"><a href="#">Highlights</a></li>
-            <li><a href="#">Операторы</a></li>
-            <li><a href="#">FAQ</a></li>
-          </ul>
-          <div class="footer__social">
-            <div class="footer__icons">
-              <div class="footer__icon">
-                <a href="#"><img src="img/svg/vk.svg" alt="vk" /></a>
-              </div>
-              <div class="footer__icon">
-                <a href="#"><img src="img/svg/tg.svg" alt="tg" /></a>
-              </div>
-              <div class="footer__icon">
-                <a href="#"><img src="img/svg/yt.svg" alt="yt" /></a>
-              </div>
-            </div>
-            <div class="footer__img">
-              <img src="img/area.png" alt="area" />
-            </div>
-          </div>
-          <div class="footer__copy">© 2022 Все права защищены</div>
+      <div class="header__block-order">
+        <div class="header__phone">
+          <a href="tel:+77777777777">+7 (777) 777-77-77</a>
         </div>
-      </footer>
+        <div class="header__order">
+          <a href="#" class="btn">Заказать услугу</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="mobile">
+  <div class="mobile__block">
+    <div class="mobile__menu">
+      <ul>
+        <li>
+          <a href="#" class="mobile__menu-item">О нас</a>
+        </li>
+        <li>
+          <a href="#" class="mobile__menu-item">Услуги</a>
+        </li>
+        <li>
+          <a href="#" class="mobile__menu-item">Проекты</a>
+        </li>
+        <li>
+          <a href="#" class="mobile__menu-item">Блог</a>
+        </li>
+      </ul>
+    </div>
+    <div class="mobile__bottom">
+      <div class="mobile__contacts">
+        <ul>
+          <li>
+            <a href="tel:+77777777777"><img src="img/svg/mobile/tel.svg" alt="tel" /> +7 (777) 777-77-77</a>
+          </li>
+          <li>
+            <a href="https://t.me/+77777777777"><img src="img/svg/mobile/telegram.svg" alt="telegram" /> Telegram</a>
+          </li>
+          <li><img src="img/svg/mobile/location.svg" alt="location" /> г. Казань, ул. Баумана</li>
+        </ul>
+      </div>
+      <div class="mobile__order">
+        <a href="#" class="btn">Заказать услугу</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <main class="page">
+        <section class="layer">
+          <div class="promo">
+            <img src="img/tcode.png" alt="tcode" />
+            <img src="img/tcode-m.png" alt="tcode" />
+          </div>
+          <div class="slider">
+            <div class="slider__head">
+              <div class="slider__container _container">
+                <div class="slider__top">
+                  <h1 class="slider__desc">Tcode — это:</h1>
+                  <div class="slider__buttons">
+                    <button class="arrow arrow-l _disabled">
+                      <img src="img/svg/arrow-l.svg" alt="arrow-l" />
+                    </button>
+                    <button class="arrow arrow-r">
+                      <img src="img/svg/arrow-r.svg" alt="arrow-r" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider__bottom">
+              <div class="slider__blocks">
+                <div class="slider__block">
+                  <div class="slider__body">
+                    <h2 class="slider__title">Коммуника-бельность</h2>
+                    <div class="slider__text">
+                      <p>Принимаем задачи на любом языке. Не важно, есть ли у вас опыт работы с IT-сферой, или вы еще только с ней знакомитесь. Наши специалисты поймут, что вам нужно, подскажут решение и сориентируют по срокам и стоимости.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__block">
+                  <div class="slider__body">
+                    <h2 class="slider__title">Трудолюбие</h2>
+                    <div class="slider__text">
+                      <p>Любовь к своему делу помогает нам работать практически постоянно. Сдавая проект, мы никуда не уходим, а остаемся с заказчиком в качестве отзывчивой техподдержки. А еще мы искренне радуемся любым доработкам, которые помогают сделать проект лучше.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__block">
+                  <div class="slider__body">
+                    <h2 class="slider__title">Забота</h2>
+                    <div class="slider__text">
+                      <p>Некоторые клиенты сотрудничают с нами уже более 10 лет. А мы до сих пор храним все их данные у себя на всякий случай. И легко все вернем, если кто-нибудь просрочит оплату хостинга, потеряет пароль от кабинета или доступ к серверу.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider__mobile">
+              <div class="slider__numbs">
+                <span class="_active">1</span>
+                <span></span>
+                <span>3</span>
+              </div>
+              <div class="slider__buttons">
+                <button class="slider__btn arrow-l _disabled">
+                  <img src="img/svg/arrow-l.svg" alt="arrow-l" />
+                </button>
+                <button class="slider__btn arrow-r">
+                  <img src="img/svg/arrow-r.svg" alt="arrow-r" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="services">
+          <div class="services__container _container">
+            <div class="services__body">
+              <h2 class="title">
+                <span class="text-color">наши</span>
+                <span>Услуги</span>
+              </h2>
+              <h3 class="services__subtitle">Мы умеем разрабатывать с нуля…</h3>
+              <div class="services__blocks">
+                <div class="services__block">
+                  <div class="services__img">
+                    <img src="img/services/1.png" alt="services" />
+                  </div>
+                  <a href="#" class="services__name">
+                    <span>Мобильные<br />приложения</span>
+                    <img src="img/svg/arrow.svg" alt="arrow" />
+                  </a>
+                </div>
+                <div class="services__block">
+                  <div class="services__img">
+                    <img src="img/services/2.png" alt="services" />
+                  </div>
+                  <a href="#" class="services__name">
+                    <span>Сайты</span>
+                    <img src="img/svg/arrow.svg" alt="arrow" />
+                  </a>
+                </div>
+                <div class="services__block">
+                  <div class="services__img">
+                    <img src="img/services/3.png" alt="services" />
+                  </div>
+                  <a href="#" class="services__name">
+                    <span>СRM-системы</span>
+                    <img src="img/svg/arrow.svg" alt="arrow" />
+                  </a>
+                </div>
+                <div class="services__block">
+                  <div class="services__img">
+                    <img src="img/services/4.png" alt="services" />
+                  </div>
+                  <a href="#" class="services__name">
+                    <span>Методы интеграции<br />готовых IT-решений</span>
+                    <img src="img/svg/arrow.svg" alt="arrow" />
+                  </a>
+                </div>
+                <div class="services__block">
+                  <div class="services__img">
+                    <img src="img/services/5.png" alt="services" />
+                  </div>
+                  <a href="#" class="services__name">
+                    <span>IT-<br />аутсорсинг</span>
+                    <img src="img/svg/arrow.svg" alt="arrow" />
+                  </a>
+                </div>
+                <div class="services__block">
+                  <div class="services__img">
+                    <img src="img/services/6.png" alt="services" />
+                  </div>
+                  <a href="#" class="services__name">
+                    <span>Рекламные<br />кампании</span>
+                    <img src="img/svg/arrow.svg" alt="arrow" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="adaptives">
+          <div class="adaptives__container _container">
+            <h2 class="adaptives__title">
+              …и адаптировать<br />
+              свои готовые решения!
+            </h2>
+            <div class="adaptives__icon">
+              <img src="img/adaptives/icon.png" alt="icon" />
+            </div>
+            <div class="adaptives__body">
+              <p>Наш многолетний и очень разноплановый опыт индивидуальной разработки позволил создать ряд универсальных решений для бизнеса.</p>
+              <p>Эти решения подойдут любой компании. Они полезны для всех. Они обкатаны годами непрерывного использования и лишены изъянов.</p>
+              <p>
+                <span>А главное — вам не придется ждать, пока мы их разрабатываем!</span><br />
+                Ведь нам достаточно просто адаптировать выбранное решение под ваши запросы.
+              </p>
+            </div>
+            <div class="adaptives__blocks">
+              <div class="adaptives__block">
+                <div class="adaptives__img">
+                  <img src="img/adaptives/1.png" alt="adaptives" />
+                </div>
+                <div class="adaptives__desc">
+                  <div class="adaptives__text">
+                    <h4>Киоск самообслуживания</h4>
+                    <p>Установим интерактивный стенд для продажи товаров и услуг, который ничем не уступает среднему кассиру, а в чем-то его даже превосходит.</p>
+                    <p>Он работает без отпусков, больничных и выходных, всегда вежлив и готов помочь вашим клиентам. Идеальное решение, если вам нужно сократить очереди на кассе.</p>
+                  </div>
+                  <div class="adaptives__btn">
+                    <button type="submit" name="sends" class="btn-arrow">
+                      <span>Мне это нужно</span>
+                      <span><img src="img/svg/arrow.svg" alt="arrow" /></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="adaptives__block">
+                <div class="adaptives__img">
+                  <img src="img/adaptives/2.png" alt="adaptives" />
+                </div>
+                <div class="adaptives__desc">
+                  <div class="adaptives__text">
+                    <h4>
+                      Электронное меню<br />
+                      для ресторана
+                    </h4>
+                    <p>Представим на вашем сайте весь ассортимент ресторана и разместим на столиках QR-коды, которые приведут ваших гостей прямо к меню.</p>
+                    <p>Посетители будут видеть ваше предложение на привычном экране смартфона, а вы сможете менять цены и ассортимент без необходимости каждый раз печатать новое меню.</p>
+                  </div>
+                  <div class="adaptives__btn">
+                    <button type="submit" name="sends" class="btn-arrow">
+                      <span>Мне это нужно</span>
+                      <span><img src="img/svg/arrow.svg" alt="arrow" /></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="adaptives__block">
+                <div class="adaptives__img">
+                  <img src="img/adaptives/3.png" alt="adaptives" />
+                </div>
+                <div class="adaptives__desc">
+                  <div class="adaptives__text">
+                    <h4>Dashboard</h4>
+                    <p>Приборная панель, которая позволит автоматизировать типовые задачи по формированию документов, учету информации и составлению отчетов.</p>
+                  </div>
+                  <div class="adaptives__btn">
+                    <button type="submit" name="sends" class="btn-arrow">
+                      <span>Мне это нужно</span>
+                      <span><img src="img/svg/arrow.svg" alt="arrow" /></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="manual">
+          <div class="manual__container _container">
+            <div class="manual__body">
+              <h2 class="title"><span>инструкция</span><span class="text-color">к действию</span></h2>
+              <h3 class="manual__subtitle">А как мы будем работать с вами?</h3>
+              <div class="manual__img">
+                <img src="img/messages.png" alt="messages" />
+              </div>
+              <div class="manual__text">
+                <p>Разумеется, только так, как будет удобно вам.</p>
+                <p>Мы подстроимся под любой формат. Но есть у нас любимый универсальный алгоритм, который почти всегда помогает договориться.</p>
+              </div>
+              <div class="steps">
+                <div class="steps__step">
+                  <div class="steps__body">
+                    <div class="steps__number">1</div>
+                    <div class="steps__text">
+                      <h4>Знакомимся</h4>
+                      <p>Мы внимательно вникаем в задачу, которую вы нам принесли. Задаем вопросы, заполняем техническое задание и узнаем друг друга получше.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="steps__step">
+                  <div class="steps__body">
+                    <div class="steps__number">2</div>
+                    <div class="steps__text">
+                      <h4>Планируем</h4>
+                      <p>Мы говорим, сколько будет стоить выполнение вашей задачи,<br />и как скоро мы сможем ее выполнить</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="steps__step">
+                  <div class="steps__body">
+                    <div class="steps__number">3</div>
+                    <div class="steps__text">
+                      <h4>Жмем друг другу руки</h4>
+                      <p>Мы доверяем заказчикам, и поэтому для начала разработки нам вполне хватает устной договоренности.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="steps__step">
+                  <div class="steps__body">
+                    <div class="steps__number">4</div>
+                    <div class="steps__text">
+                      <h4>Дружим</h4>
+                      <p>Мы сдаем вам проект и никуда от вас не уходим. Консультируем, помогаем, поддерживаем, сопровождаем и отвечаем на вопросы.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="steps__step">
+                  <div class="steps__body">
+                    <div class="steps__number">5</div>
+                    <div class="steps__text">
+                      <h4>Форма заявки</h4>
+                      <p>
+                        Опишите вашу задачу в двух словах.<br />
+                        На любом языке.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="steps__submit-order">
+                    <form action="/" class="steps__form">
+                      <div class="steps__col-form">
+                        <div class="steps__input">
+                          <input type="text" name="form-name" placeholder="Имя" maxlength="50" />
+                        </div>
+                        <div class="steps__input">
+                          <input type="text" name="form-tel" placeholder="Телефон" />
+                        </div>
+                        <div class="steps__agree">
+                          <p>Нажимая на кнопку “Отправить заявку” вы даёте</p>
+                          <p>согласие на обработку персональных данных</p>
+                        </div>
+                      </div>
+                      <div class="steps__col-form">
+                        <div class="steps__input">
+                          <textarea name="form-message" placeholder="Ваше сообщение"></textarea>
+                        </div>
+                        <button type="submit" name="form-sends" class="steps__btn btn-arrow">
+                          <span>Отправить заявку</span>
+                          <span><img src="img/svg/arrow.svg" alt="arrow" /></span>
+                        </button>
+                        <div class="steps__agree-mobile">
+                          <p>Нажимая на кнопку “Отправить заявку” вы даёте согласие на обработку персональных данных</p>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="portfolio">
+          <div class="portfolio__container _container">
+            <div class="portfolio__body">
+              <h2 class="title"><span>портфолио</span><span class="text-color">и отзывы</span></h2>
+              <h3 class="portfolio__subtitle">Наши работы и ваши отзывы</h3>
+              <div class="portfolio__img">
+                <img src="img/portfolio/message.png" alt="message" />
+              </div>
+              <div class="portfolio__text">
+                <p>Мы реализовали немало интересных проектов, которыми очень гордимся. Посмотрите, как может выглядеть решение вашей задачи, почитайте отзывы заказчиков о работе с нами и поделитесь своим мнением о компании Tcode.</p>
+              </div>
+              <div class="portfolio__share">
+                <button type="submit" name="sends" class="btn-arrow">
+                  <span>Поделиться мнением</span>
+                  <span><img src="img/svg/arrow.svg" alt="arrow" /></span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="apps">
+            <div class="apps__blocks">
+              <div class="apps__block">
+                <div class="apps__body">
+                  <div class="apps__img">
+                    <img src="img/portfolio/apps/1.png" alt="1" />
+                  </div>
+                  <a href="#" class="apps__more">
+                    <h4>Мобильное<br />приложение</h4>
+                    <img src="img/svg/more.svg" alt="more" />
+                  </a>
+                </div>
+              </div>
+              <div class="apps__block">
+                <div class="apps__body">
+                  <div class="apps__img">
+                    <img src="img/portfolio/apps/1.png" alt="1" />
+                  </div>
+                  <a href="#" class="apps__more">
+                    <h4>Мобильное<br />приложение</h4>
+                    <img src="img/svg/more.svg" alt="more" />
+                  </a>
+                </div>
+              </div>
+              <div class="apps__block">
+                <div class="apps__body">
+                  <div class="apps__img">
+                    <img src="img/portfolio/apps/1.png" alt="1" />
+                  </div>
+                  <a href="#" class="apps__more">
+                    <h4>Мобильное<br />приложение</h4>
+                    <img src="img/svg/more.svg" alt="more" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="apps__buttons _container">
+              <button class="arrow arrow-l _disabled">
+                <img src="img/svg/arrow-l.svg" alt="arrow-l" />
+              </button>
+              <button class="arrow arrow-r">
+                <img src="img/svg/arrow-r.svg" alt="arrow-r" />
+              </button>
+            </div>
+            <button class="apps__loads">Загрузить ещё</button>
+          </div>
+          <div class="reviews">
+            <div class="reviews__slider">
+              <div class="reviews__flex">
+                <button class="arrow arrow-l _not-active">
+                  <img src="img/svg/arrow-l.svg" alt="arrow-l" />
+                </button>
+                <div class="reviews__blocks">
+                  <div class="reviews__block">
+                    <div class="reviews__body">
+                      <div class="reviews__img">
+                        <img src="img/portfolio/reviews/1.png" alt="1" />
+                      </div>
+                      <div class="reviews__text">
+                        <div class="reviews__message">
+                          <p>С помощью EGGHEADS мы освободили много времени для наших сотрудников. Увидели все свои проблемы, которые начали исправлять с помощью инструментов EGGHEADS, и как результат, за первый же месяц работы оборот компании увеличился на 30%. Отдельно отмечу подробное обучение и регулярные встречи с аналитиками EGGHEADS, которые подсказывают нам новые точки для роста компании.</p>
+                        </div>
+                        <div class="reviews__name">
+                          <h5>Елене Смирнова</h5>
+                          <p>Бренд</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="arrow arrow-r">
+                  <img src="img/svg/arrow-r.svg" alt="arrow-r" />
+                </button>
+              </div>
+              <div class="reviews__mobile-flex">
+                <div class="reviews__thumbs"><span class="_active"></span><span></span><span></span><span></span></div>
+                <div class="reviews__buttons">
+                  <button class="arrow arrow-l _disabled">
+                    <img src="img/svg/arrow-l.svg" alt="arrow-l" />
+                  </button>
+                  <button class="arrow arrow-r">
+                    <img src="img/svg/arrow-r.svg" alt="arrow-r" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about">
+          <div class="about__container _container">
+            <div class="about__body">
+              <h2 class="title">о нас</h2>
+              <div class="about__blocks">
+                <div class="about__block">
+                  <div class="about__head">
+                    <div class="about__img">
+                      <img src="img/about/1.png" alt="about" />
+                    </div>
+                    <h3 class="about__title">Мы выполняли очень разные заказы</h3>
+                  </div>
+                  <div class="about__text">
+                    <p>От государственных предприятий до организаторов спортивных мероприятий, от застройщиков до изготовителей пластиковых окон. От Brabus до Сбербанка. И всегда находилась тема для разговора, которая обычно становилась поводом для многолетней дружбы. Это удивляет и радует. А еще позволяет нам быть уверенными, что мы подружимся и с вами.</p>
+                  </div>
+                </div>
+                <div class="about__block">
+                  <div class="about__head">
+                    <div class="about__img">
+                      <img src="img/about/2.png" alt="about" />
+                    </div>
+                    <h3 class="about__title">У нас работают профессионалы</h3>
+                  </div>
+                  <div class="about__text">
+                    <p><span>Дизайнеры, верстальщики, php, python и flutter разработчики, копирайтеры и маркетологи,</span> которые любят и прекрасно знают свое дело. И все эти по-своему талантливые люди постоянно взаимодействуют друг с другом, обучаясь и обучая других. Нам кажется, что так и должна выглядеть здоровая конкуренция внутри коллектива.</p>
+                  </div>
+                </div>
+                <div class="about__block">
+                  <div class="about__head">
+                    <div class="about__img">
+                      <img src="img/about/3.png" alt="about" />
+                    </div>
+                    <h3 class="about__title">Мы не только решаем задачи, но и помогаем клиентам</h3>
+                  </div>
+                  <div class="about__text">
+                    <p>Бывают случаи, когда заказчик приходит с заданием, выполнение которого никак не облегчит ему жизнь. Если мы это понимаем, то считаем своим долгом отговорить человека от бессмысленной траты денег и выяснить, что ему на самом деле поможет. А как только выясняем, сразу же беремся за работу.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="blog">
+          <div class="blog__container _container">
+            <div class="blog__body">
+              <h2 class="title">Блог</h2>
+              <div class="blog__blocks">
+                <div class="blog__block">
+                  <div class="blog__img">
+                    <img src="img/blog/1.png" alt="blog" />
+                  </div>
+                  <div class="blog__to-read">
+                    <span class="blog__date">1 ноября 2021</span>
+                    <h3 class="blog__title">Как создать приложение как Авито</h3>
+                    <a href="#" class="blog__read">Читать <img src="img/svg/read.svg" alt="read" /></a>
+                  </div>
+                </div>
+                <div class="blog__block">
+                  <div class="blog__img">
+                    <img src="img/blog/1.png" alt="blog" />
+                  </div>
+                  <div class="blog__to-read">
+                    <span class="blog__date">1 ноября 2021</span>
+                    <h3 class="blog__title">Как создать приложение как Авито</h3>
+                    <a href="#" class="blog__read">Читать <img src="img/svg/read.svg" alt="read" /></a>
+                  </div>
+                </div>
+                <div class="blog__block">
+                  <div class="blog__img">
+                    <img src="img/blog/1.png" alt="blog" />
+                  </div>
+                  <div class="blog__to-read">
+                    <span class="blog__date">1 ноября 2021</span>
+                    <h3 class="blog__title">Как создать приложение как Авито</h3>
+                    <a href="#" class="blog__read">Читать <img src="img/svg/read.svg" alt="read" /></a>
+                  </div>
+                </div>
+                <div class="blog__block">
+                  <div class="blog__img">
+                    <img src="img/blog/1.png" alt="blog" />
+                  </div>
+                  <div class="blog__to-read">
+                    <span class="blog__date">1 ноября 2021</span>
+                    <h3 class="blog__title">Как создать приложение как Авито</h3>
+                    <a href="#" class="blog__read">Читать <img src="img/svg/read.svg" alt="read" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="blog__articles">
+                <a href="#" class="btn-arrow">
+                  <span>Все статьи</span>
+                  <span><img src="img/svg/arrow.svg" alt="arrow" /></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <div class="feedback">
+  <div class="feedback__container _container">
+    <div class="feedback__body">
+      <div class="feedback__forms">
+        <h2 class="feedback__title">Связаться с нами</h2>
+        <div class="forms">
+          <form action="/" class="forms__form">
+            <div class="forms__input">
+              <input type="text" name="name" placeholder="Имя" maxlength="50" />
+            </div>
+            <div class="forms__input">
+              <input type="text" name="tel" placeholder="Телефон" />
+            </div>
+            <div class="forms__input">
+              <textarea name="message" placeholder="Ваше сообщение"></textarea>
+            </div>
+            <div class="forms__agree">
+              <p>Нажимая на кнопку “Отправить заявку” вы даёте</p>
+              <p>согласие на обработку персональных данных</p>
+            </div>
+            <button type="submit" name="sends" class="forms__btn btn-arrow">
+              <span>Отправить</span>
+              <span><img src="img/svg/arrow.svg" alt="arrow" /></span>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="feedback__contacts">
+        <div class="contacts">
+          <div class="contacts__body">
+            <h3 class="contacts__title">Контакты</h3>
+            <ul class="contacts__ul">
+              <li>
+                <a href="tel:+77777777777"><img src="img/svg/tel.svg" alt="tel" /> +7 (777) 777-77-77</a>
+              </li>
+              <li>
+                <a href="https://t.me/+77777777777"><img src="img/svg/telegram.svg" alt="telegram" /> Telegram</a>
+              </li>
+              <li><img src="img/svg/location.svg" alt="location" /> г. Казань, ул. Баумана</li>
+            </ul>
+            <div class="contacts__phrase"><span>Более 10 лет</span><span>успешной</span><span>разработки</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ <footer class="footer">
+  <div class="footer__container _container">
+    <div class="footer__body">
+      <div class="footer__logo">
+        <a href="/">
+          <div><img src="img/svg/logo/icon.svg" alt="logo" width="60" /></div>
+          <div>
+            <img src="img/svg/logo/tcode.svg" alt="logo" width="94" />
+            <img src="img/svg/logo/by.svg" alt="logo" width="53" />
+          </div>
+        </a>
+      </div>
+      <div class="footer__menu">
+        <ul>
+          <li><a href="#">Услуги</a></li>
+          <li><a href="#">Портфолио</a></li>
+          <li><a href="#">Калькулятор</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Контакты</a></li>
+          <li><a href="#">Блог</a></li>
+        </ul>
+      </div>
+      <div class="footer__order">
+        <a href="tel:+77777777777"><img src="img/svg/tel.svg" alt="tel" />+7 (777) 777-77-77</a>
+        <a href="#" class="btn">Заказать услугу</a>
+      </div>
+      <div class="footer__copy">© 2022 Tcode. All Rights Reserved</div>
+    </div>
+  </div>
+</footer>
+
     </div>
     <script src="js/app.js"></script>
-    <script type="module">
-      import Swiper from "https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js";
-      let swiper = new Swiper(".disciplines__slider.swiper", {
-        direction: "horizontal",
-        loop: true,
-        slidesPerView: 3,
-        initialSlide: 0,
-        spaceBetween: 0,
-        navigation: {
-          prevEl: ".disciplines__btn-arrow.swiper-button-prev",
-          nextEl: ".disciplines__btn-arrow.swiper-button-next",
-        },
-      });
-    </script>
   </body>
 </html>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="9"
-   height="15"
-   viewBox="0 0 9 15"
+   width="25"
+   height="18"
+   viewBox="0 0 25 18"
    fill="none"
    version="1.1"
    id="svg4"
@@ -10,10 +10,33 @@
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs8" />
+     id="defs8">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Strips1_1"
+       id="pattern1940"
+       patternTransform="matrix(-10,0,0,10,25,0)" />
+    <pattern
+       inkscape:collect="always"
+       patternUnits="userSpaceOnUse"
+       width="2"
+       height="1"
+       patternTransform="translate(0,0) scale(10,10)"
+       id="Strips1_1"
+       inkscape:stockid="Stripes 1:1">
+      <rect
+         style="fill:black;stroke:none"
+         x="0"
+         y="-0.5"
+         width="1"
+         height="2"
+         id="rect2215" />
+    </pattern>
+  </defs>
   <sodipodi:namedview
      id="namedview6"
      pagecolor="#ffffff"
@@ -23,20 +46,21 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="34.666667"
-     inkscape:cx="4.4855769"
-     inkscape:cy="7.4855769"
+     inkscape:zoom="28.888889"
+     inkscape:cx="12.513461"
+     inkscape:cy="9.0173077"
      inkscape:window-width="1366"
-     inkscape:window-height="745"
-     inkscape:window-x="1358"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg4" />
   <path
-     d="M1 14L8 7.5L1 0.999999"
-     stroke="#5F636B"
-     stroke-linecap="round"
-     stroke-linejoin="round"
+     opacity="0.3"
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M 16.62371,1.32924 C 16.44187,1.12142 16.46293,0.805538 16.67075,0.623697 16.87857,0.441856 17.19445,0.462915 17.37629,0.670734 L 24.374562,8.66876 C 24.452618,8.75697 24.5,8.87294 24.5,8.99999 c 0,0.12712 -0.04744,0.24316 -0.125585,0.33139 L 17.37629,17.3292 c -0.18184,0.2079 -0.49773,0.2289 -0.70554,0.0471 -0.20782,-0.1819 -0.22888,-0.4977 -0.04704,-0.7056 l 6.2744,-7.17071 H 1 c -0.2761,0 -0.5,-0.22386 -0.5,-0.5 0,-0.27615 0.2239,-0.5 0.5,-0.5 h 21.89811 z"
+     fill="#FFD412"
      id="path2"
-     style="stroke:#ff6a13;stroke-opacity:1" />
+     style="fill:#ffd412;fill-opacity:1;stroke:url(#pattern1940);stroke-opacity:0" />
 </svg>
